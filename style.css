@@ -1,0 +1,260 @@
+.nav-modernize {
+    background-color: #1a1a1a;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em;
+}
+
+.nav-modernize img {
+    margin-left: 25px;
+    margin-top: 7px;
+}
+
+.nav-call {
+    color: white;
+    margin-left: auto;
+    font-size: 1em;
+    margin-bottom: 75px;
+    margin-right: 15px;
+}
+
+.navbar-2 {
+    background-color: #3d3a3a;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar-2 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-2 li {
+    margin-right: 10px;
+}
+
+.navbar-2 li:not(:last-child)::after {
+    content: "|";
+    margin-left: 10px;
+    color: #181717;
+}
+
+.navbar-2 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-2 a:hover {
+    color: #ccc;
+}
+
+/* imagen de fondo*/
+.fondo {
+    padding: 20px;
+    margin-top: 70px; 
+    margin-bottom: 50px; 
+}
+
+
+
+
+.fondo {
+    padding: 350px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    background-image: url('img/main_pic.png');
+    background-size: cover;
+    background-position: center;
+    color: #333; 
+    position: relative;
+}
+
+
+
+ body{
+    background-color: #1f1919;
+ }
+.columns-wrapper {
+    padding: 20px;
+}
+
+/* Contenedor para las columnas */
+.columns-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0; /* Eliminar espacio entre las columnas */
+    margin: 0; /* Eliminar margen para ajustar las columnas */
+}
+
+/* Estilo de cada columna */
+.column {
+    background-color: #444; /* Color de fondo de las columnas */
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: calc(25% - 20px); /* Ancho de las columnas con espacio para gap */
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box; /* Incluir padding y border en el cálculo del ancho */
+    color: #fff; /* Color del texto dentro de las columnas */
+    margin-bottom: 20px; /* Espacio inferior entre filas de columnas */
+}
+
+/* Ajustar el tamaño del logo en cada columna */
+.column-logo {
+    width: 70px; /* Ancho del logo */
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* Estilo del título dentro de la columna */
+.column-title {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #fff; /* Color del texto del título */
+}
+
+/* Estilo de la descripción dentro de la columna */
+.column-description {
+    font-size: 0.9em;
+    color: #ccc; /* Color del texto de la descripción */
+}
+
+
+
+
+
+.barra-negra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    background-color: #1f1919; /* Fondo negro para la barra */
+    padding: 10px 20px; /* Espaciado interno */
+    color: #fff; /* Color del texto en la barra */
+}
+
+.titulo {
+    margin: 0; /* Eliminar margen por defecto del título */
+    font-size: 1.5em; /* Tamaño del texto */
+    text-align: right;
+}
+
+.buy-now-button {
+    background-color: #ffd700; /* Color amarillo para el botón */
+    color: #000; /* Color del texto en el botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    text-decoration: none; /* Eliminar subrayado del enlace */
+    border-radius: 5px; /* Bordes redondeados */
+    font-weight: bold; /* Texto en negrita */
+    transition: background-color 0.3s; /* Transición suave para el efecto hover */
+}
+
+.buy-now-button:hover {
+    background-color: #ffeb3b; /* Color amarillo más claro al pasar el mouse sobre el botón */
+}
+.subtitulo{
+    text-align: right;
+}
+
+
+
+
+.black-bar {
+    background-color: #000; /* Fondo negro para la barra */
+    padding: 20px 20px; /* Espaciado interno */
+    color: #fff; /* Color del texto en la barra */
+    height: 150px;
+}
+
+.bar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bar-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%; /* Limitar el ancho del texto */
+}
+
+.bar-title {
+    margin: 0;
+    font-size: 2em; /* Tamaño del texto del título */
+}
+
+.bar-description {
+    margin: 5px 0 0; /* Espacio entre el título y la descripción */
+    font-size: 1em; /* Tamaño del texto de la descripción */
+    color: #ccc; /* Color del texto de la descripción */
+}
+
+.buy-now-button {
+    background-color: #ffd700; /* Color amarillo para el botón */
+    color: #000; /* Color del texto en el botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    text-decoration: none; /* Eliminar subrayado del enlace */
+    border-radius: 5px; /* Bordes redondeados */
+    font-weight: bold; /* Texto en negrita */
+    transition: background-color 0.3s; /* Transición suave para el efecto hover */
+}
+
+.buy-now-button:hover {
+    background-color: goldenrod; /* Color amarillo más claro al pasar el mouse sobre el botón */
+}
+
+
+
+
+body{
+    background-color: #444;
+}
+
+.cards-section {
+    padding: 40px 20px;
+    background-color: #444; /* Fondo claro para la sección de cartas */
+    text-align: center; /* Centrar el texto */
+}
+
+.cards-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #444; /* Fondo blanco para las cartas */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(25% - 20px); /* Ancho de las cartas con espacio para el gap */
+    padding: 20px;
+    box-sizing: border-box; /* Incluir padding en el cálculo del ancho */
+    text-align: center;
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card-title {
+    font-size: 1.2em;
+    margin: 15px 0 10px;
+    color: goldenrod;
+}
+
+.card-description {
+    font-size: 1em;
+    color: #ffffff; /* Color del texto de la descripción */
+}
